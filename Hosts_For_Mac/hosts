@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-2-13
+# Last updated: 2016-2-17
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -37,6 +37,7 @@ fe80::1%lo0 localhost
 204.246.162.198	us-west-1.console.aws.amazon.com
 54.240.250.61	us-west-2.console.aws.amazon.com
 54.231.34.41	github-cloud.s3.amazonaws.com
+54.231.48.40	github-com.s3.amazonaws.com
 # Amazon AWS End 
 
 # Archive Start
@@ -74,28 +75,8 @@ fe80::1%lo0 localhost
 96.45.83.209	help.duckduckgo.com
 # DuckDuckGo End
 
-# DMM Start
-106.186.27.62   www.dmm.com
-106.186.27.62   www.dmm.co.jp
-106.186.27.62   sp.dmm.com
-106.186.27.62   sp.dmm.co.jp
-106.186.27.62   actress.dmm.co.jp
-106.186.27.62   book.dmm.com
-106.186.27.62   book.dmm.co.jp
-106.186.27.62   www.akabeesoft2.com
-106.186.27.62   www.akabeesoft3.com
-106.186.27.62   www.akatsukiworks.com
-106.186.27.62   www.alicesoft.com
-106.186.27.62   www.cosmiccute.com
-106.186.27.62   www.hibiki-site.com
-106.186.27.62   www.minori.ph
-106.186.27.62 erogamescape.ddo.jp
-106.186.27.62 tenco.cc
-106.186.27.62 wheel-soft.com
-# DMM End
-
 # Facebook start
-66.220.158.69    fb.me
+66.220.158.83    fb.me
 31.13.66.14    video.xx.fbcdn.net
 31.13.66.9    scontent.xx.fbcdn.net
 31.13.66.9    scontent-a.xx.fbcdn.net
@@ -121,7 +102,7 @@ fe80::1%lo0 localhost
 23.63.99.171    fbcdn-video-o-a.akamaihd.net
 23.63.99.144    fbcdn-video-p-a.akamaihd.net
 23.63.99.123    fbcdn-vthumb-a.akamaihd.net
-66.220.158.69    mqtt.facebook.com
+66.220.158.83    mqtt.facebook.com
 77.67.4.11    fbcdn-sphotos-a-a.akamaihd.net
 77.67.4.64    fbcdn-sphotos-b-a.akamaihd.net
 77.67.4.74    fbcdn-sphotos-c-a.akamaihd.net
@@ -135,20 +116,23 @@ fe80::1%lo0 localhost
 23.213.58.87    profile.ak.facebook.com
 184.28.188.154    static.ak.facebook.com
 184.28.188.154    b.static.ak.facebook.com
-66.220.158.69    graph.facebook.com
-66.220.158.69    ssl.facebook.com
-66.220.158.69    api.facebook.com
-66.220.158.69    secure-profile.facebook.com
-66.220.158.69    secure.facebook.com
-66.220.158.69    zh-cn.facebook.com
-66.220.158.69    login.facebook.com
-66.220.158.69    m.facebook.com
+66.220.158.83    graph.facebook.com
+66.220.158.83    ssl.facebook.com
+66.220.158.83    api.facebook.com
+66.220.158.83    secure-profile.facebook.com
+66.220.158.83    secure.facebook.com
+66.220.158.83    zh-cn.facebook.com
+66.220.158.83    login.facebook.com
+66.220.158.83    m.facebook.com
 108.166.120.82    messages-facebook.com
-66.220.158.69    attachments.facebook.com
-66.220.158.69    touch.facebook.com
-66.220.158.69    facebook.com
-66.220.158.69    www.facebook.com
-66.220.158.69    apps.facebook.com
+66.220.158.83    attachments.facebook.com
+66.220.158.83    touch.facebook.com
+66.220.158.83    facebook.com
+66.220.158.83    www.facebook.com
+66.220.158.83    apps.facebook.com
+66.220.158.83    upload.facebook.com
+66.220.158.83    developers.facebook.com
+66.220.158.83    fbcdn.net
 165.254.42.232    profile.ak.fbcdn.net
 173.252.71.184    vpn.tfbnw.net
 184.28.188.240    vthumb.ak.fbcdn.net
@@ -161,47 +145,44 @@ fe80::1%lo0 localhost
 184.28.188.171    photos-g.ak.fbcdn.net
 184.28.188.146    photos-h.ak.fbcdn.net
 184.28.188.171    creative.ak.fbcdn.net
-66.220.158.69    fbcdn.net
 184.28.188.153    external.ak.fbcdn.net
 184.28.188.153    b.static.ak.fbcdn.net
 184.28.188.153    static.ak.fbcdn.net
-66.220.158.69    upload.facebook.com
-66.220.158.69    developers.facebook.com
-static.ak.fbcdn.net    act.channel.facebook.com
-static.ak.fbcdn.net    0-act.channel.facebook.com
-static.ak.fbcdn.net    1-act.channel.facebook.com
-static.ak.fbcdn.net    2-act.channel.facebook.com
-static.ak.fbcdn.net    3-act.channel.facebook.com
-static.ak.fbcdn.net    4-act.channel.facebook.com
-static.ak.fbcdn.net    5-act.channel.facebook.com
-static.ak.fbcdn.net    6-act.channel.facebook.com
+184.28.188.153    act.channel.facebook.com
+184.28.188.153    0-act.channel.facebook.com
+184.28.188.153    1-act.channel.facebook.com
+184.28.188.153    2-act.channel.facebook.com
+184.28.188.153    3-act.channel.facebook.com
+184.28.188.153    4-act.channel.facebook.com
+184.28.188.153    5-act.channel.facebook.com
+184.28.188.153    6-act.channel.facebook.com
+184.28.188.153    origincache-ai-01-05-ash3.fbcdn.net
+184.28.188.153    inyour-slb-01-05-ash3.facebook.com
+184.28.188.153    origincache-starfacebook-ai-01-05-ash3.facebook.com
 69.171.246.7    beta-chat-01-05-ash3.facebook.com
-static.ak.fbcdn.net    origincache-ai-01-05-ash3.fbcdn.net
 69.171.235.9    static.thefacebook.com
-static.ak.fbcdn.net    inyour-slb-01-05-ash3.facebook.com
-static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 69.171.246.16    channel-ecmp-05-ash3.facebook.com
 69.171.246.17    channel-staging-ecmp-05-ash3.facebook.com
 69.171.246.18    channel-testing-ecmp-05-ash3.facebook.com
-66.220.158.69    0-edge-chat.facebook.com
-66.220.158.69    1-edge-chat.facebook.com
-66.220.158.69    2-edge-chat.facebook.com
-66.220.158.69    3-edge-chat.facebook.com
-66.220.158.69    4-edge-chat.facebook.com
-66.220.158.69    5-edge-chat.facebook.com
-66.220.158.69    6-edge-chat.facebook.com
-66.220.158.69    api-read.facebook.com
-66.220.158.69    attachment.fbsbx.com
-66.220.158.69    bigzipfiles.facebook.com
-66.220.158.69    check4.facebook.com
-66.220.158.69    check6.facebook.com
-66.220.158.69    code.facebook.com
-66.220.158.69    connect.facebook.com
-66.220.158.69    edge-chat.facebook.com
-66.220.158.69    pixel.facebook.com
-66.220.158.69    star.c10r.facebook.com
-66.220.158.69    star.facebook.com
-66.220.158.69    zh-tw.facebook.com
+66.220.158.83    0-edge-chat.facebook.com
+66.220.158.83    1-edge-chat.facebook.com
+66.220.158.83    2-edge-chat.facebook.com
+66.220.158.83    3-edge-chat.facebook.com
+66.220.158.83    4-edge-chat.facebook.com
+66.220.158.83    5-edge-chat.facebook.com
+66.220.158.83    6-edge-chat.facebook.com
+66.220.158.83    api-read.facebook.com
+66.220.158.83    attachment.fbsbx.com
+66.220.158.83    bigzipfiles.facebook.com
+66.220.158.83    check4.facebook.com
+66.220.158.83    check6.facebook.com
+66.220.158.83    code.facebook.com
+66.220.158.83    connect.facebook.com
+66.220.158.83    edge-chat.facebook.com
+66.220.158.83    pixel.facebook.com
+66.220.158.83    star.c10r.facebook.com
+66.220.158.83    star.facebook.com
+66.220.158.83    zh-tw.facebook.com
 173.252.74.27    b-api.facebook.com
 173.252.74.27    b-graph.facebook.com
 104.78.23.174    connect.facebook.net
@@ -236,6 +217,7 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 # Twitter Start
 185.45.5.47	t.co
 185.45.5.54	api.twitter.com
+104.244.42.131 apps.twitter.com
 185.45.5.41	a0.twimg.com
 185.45.5.41	a1.twimg.com
 185.45.5.41	r.twimg.com
@@ -341,6 +323,7 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 220.255.2.153	m.googlemail.com
 220.255.2.153	mail.google.com
 220.255.2.153	www.gmail.com
+64.233.162.84 mail-settings.google.com
 # Gmail web End
 
 # Google Start
@@ -604,6 +587,7 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 220.255.2.153	google-code-prettify.googlecode.com
 220.255.2.153	www.googlesource.com
 220.255.2.153	android.googlesource.com
+220.255.2.153	android-review.googlesource.com
 220.255.2.153	cloud.google.com
 220.255.2.153	developers.google.com
 220.255.2.153	cloudssh.developers.google.com
@@ -684,6 +668,8 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 220.255.2.153	spreadsheets7.google.com
 220.255.2.153	spreadsheets8.google.com
 220.255.2.153	spreadsheets9.google.com
+220.255.2.153	drivenotepad.appspot.com
+220.255.2.153	8c953efe117cb4ee14eaffe2b417623a104ce4e6.googledrive.com
 220.255.2.153	v3.cache1.c.docs.google.com
 220.255.2.153	domains.google.com
 220.255.2.153	dl-ssl.google.com
@@ -997,7 +983,6 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 220.255.2.153	android-market.l.google.com
 220.255.2.153	android.l.google.com
 220.255.2.153	android-china.l.google.com
-220.255.2.153   android-review.googlesource.com
 220.255.2.153	adwords.l.google.com
 220.255.2.153	appspot.l.google.com
 220.255.2.153	aspmx.l.google.com
@@ -2383,7 +2368,7 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 220.255.2.153	mobile.l.google.com
 # 220.255.2.153	ext.google.com
 216.58.217.12	proxy.googlezip.net
-216.58.217.12	check.googlezip.net
+# 216.58.217.12	check.googlezip.net
 216.58.217.12	compress.googlezip.net
 216.58.217.12	proxy-dev.googlezip.net
 220.255.2.153	polymer-project.org
@@ -2829,6 +2814,7 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 64.233.188.129	uberproxy.l.google.com
 220.255.2.153	certificate-transparency.org
 220.255.2.153	www.certificate-transparency.org
+220.255.2.153	abc.xyz
 # Google:others End
 
 # Gmail SMTP/POP/IMAP Start
@@ -2838,6 +2824,7 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 64.233.188.16	googlemail-smtp.l.google.com
 64.233.188.109	gmail-pop.l.google.com
 64.233.188.16	googlemail-pop.l.google.com
+64.233.188.109  mail-settings.google.com
 64.233.188.109	imap.gmail.com
 64.233.188.16	imap.googlemail.com
 64.233.188.109	smtp.gmail.com
@@ -2847,7 +2834,6 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 64.233.188.109	gmail-smtp-msa.l.google.com
 64.233.188.27	gmail-smtp-in.l.google.com
 64.233.188.14	gmr-smtp-in.l.google.com
-64.233.188.109	mail-settings.google.com
 # Gmail SMTP/POP/IMAP End
 
 # Google:stun Server Start
@@ -3079,29 +3065,6 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 204.79.197.213	nhuhga.dm2301.livefilestore.com
 # OneDrive End
 
-# osu Start
-141.101.112.193	a.ppy.sh
-141.101.112.193	b.ppy.sh
-192.99.201.125	bm4.ppy.sh
-192.99.38.38	bm5.ppy.sh
-141.101.112.193	c.ppy.sh
-192.241.179.220	m1.ppy.sh
-141.101.112.193	osu.ppy.sh
-141.101.112.193	s.ppy.sh
-# osu End
-
-# RockStar Start
-192.81.241.11	conductor-prod.ros.rockstargames.com
-192.81.241.100	conductor-prod.ros.rockstargames.com
-208.111.148.6	patches.rockstargames.com
-208.111.149.150	prod.cloud.rockstargames.com
-54.68.41.239	prod.cs.ros.rockstargames.com
-192.81.245.200	prod.p01sjc.pod.rockstargames.com
-192.81.245.201	prod.p02sjc.pod.rockstargames.com
-192.81.241.11	prod.ros.rockstargames.com
-54.149.44.210	prod.telemetry.ros.rockstargames.com
-# RockStar End
-
 # SoundCloud Start
 68.232.44.96	a1.sndcdn.com
 68.232.44.127	api.soundcloud.com
@@ -3109,6 +3072,8 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 68.232.44.127	api-v2.soundcloud.com
 68.232.44.96	a-v2.sndcdn.com
 54.192.127.227	cf-media.sndcdn.com
+68.232.45.77	ec-media.sndcdn.com
+159.106.121.75 	feeds.soundcloud.com
 68.232.45.67	ec-media.soundcloud.com
 68.232.46.220	ec-rtmp-media.soundcloud.com
 54.76.196.137	eventgateway.soundcloud.com
@@ -3131,6 +3096,9 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 68.232.44.96	wis.sndcdn.com
 # SoundCloud End
 
+# Steam 
+203.116.74.210  cdn.akamai.steamstatic.com
+
 # Speedtest Start
 # 110.232.178.82	a.speedtest.net
 # 110.232.178.82	b.speedtest.net
@@ -3140,9 +3108,6 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 # 110.232.178.82	www.speedtest.net
 # Speedtest End
 
-# Steam 
-203.116.74.210  cdn.akamai.steamstatic.com
-
 # Startpage Start
 37.0.88.36	startpage.com
 37.0.88.36	eu.startpage.com
@@ -3151,6 +3116,11 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 37.0.88.36	blog.startpage.com
 # Startpage End
 
+# slideshare Start
+103.20.93.138  slideshare.net
+103.20.93.138  www.slideshare.net
+61.213.168.33  www.elperiodico.cat
+# slideshare End
 
 # Wikipedia Start
 208.80.154.224	www.wikipedia.org
@@ -3562,6 +3532,17 @@ static.ak.fbcdn.net    origincache-starfacebook-ai-01-05-ash3.facebook.com
 66.155.9.238	zh-cn.wordpress.com
 66.155.9.238	zh-sg.wordpress.com
 # WordPress End
+
+# RockStar Start
+192.81.241.100	conductor-prod.ros.rockstargames.com
+208.111.148.6	patches.rockstargames.com
+68.142.107.164	prod.cloud.rockstargames.com
+54.68.144.99	prod.cs.ros.rockstargames.com
+192.81.245.200	prod.p01sjc.pod.rockstargames.com
+192.81.245.201	prod.p02sjc.pod.rockstargames.com
+192.81.241.10	prod.ros.rockstargames.com
+54.200.96.200	prod.telemetry.ros.rockstargames.com
+# RockStar End
 
 # XDA Start
 68.232.44.229	cdn.www.xda-developers.com
